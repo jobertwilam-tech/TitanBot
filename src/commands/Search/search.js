@@ -7,11 +7,11 @@ import searchUrban from './modules/search_urban.js';
 
 export default {
     data: new SlashCommandBuilder()
-        .setName('ok')
+        .setName('search')
         .setDescription('Search the web and dictionaries')
         .addSubcommand(subcommand =>
             subcommand
-                .setName('search')
+                .setName('this')
                 .setDescription('Look up a word definition')
                 .addStringOption(option =>
                     option.setName('word')
