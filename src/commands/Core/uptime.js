@@ -5,7 +5,7 @@ import { logger } from '../../utils/logger.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
-    .setName("uptime")
+    .setName("buhay")
     .setDescription("Check how long the bot has been online"),
 
   async execute(interaction) {
