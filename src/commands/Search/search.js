@@ -11,7 +11,7 @@ export default {
         .setDescription('Search the web and dictionaries')
         .addSubcommand(subcommand =>
             subcommand
-                .setName('this')
+                .setName('define')
                 .setDescription('Look up a word definition')
                 .addStringOption(option =>
                     option.setName('word')
